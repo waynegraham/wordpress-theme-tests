@@ -36,4 +36,3 @@ define( 'WP_PHP_BINARY', 'php' );
 
 define( 'WPLANG', '' );
 $table_prefix  = 'wptests_';
-<?
