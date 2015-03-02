@@ -29,3 +29,5 @@ mv $theme_slug $theme_dir
 cd $theme_dir
 
 echo "theme dir at end: $theme_dir"
+echo "theme_dir files: `ls $theme_dir`"
+
