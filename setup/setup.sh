@@ -11,7 +11,7 @@ mkdir -p $WP_CORE_DIR
 
 sudo apt-get clean
 sudo apt-get update
-sudo apt-get install apach2 libapache2-mod-php5 php5-mysql
+sudo apt-get install apache2 libapache2-mod-php5 php5-mysql
 sudo a2enmod rewrite php5
 
 sudo cp -f build/travis-ci-apache /etc/apache2/sites-available/default
